@@ -4,3 +4,8 @@
 var/log/*
 var/tmp/*
 vendor/
+# Text backup files
+*.bak
+
+#Database
+*.sqlite3
