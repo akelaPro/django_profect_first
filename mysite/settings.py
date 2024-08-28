@@ -18,11 +18,11 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Quick-start development settings - unsuitable for production
-SECRET_KEY = os.environ.get('django-insecure-e5rk(p_z6+mu33n3382@3i(%2)!7!f#=)86b8ru-qz%8=k(zyy')
+SECRET_KEY = '2IsW8Fn1tKJeoE-YbuZwqqbHMsk4Ux-EErj3Gp_4jAQqiCy4IAsywXF1_gPnFgvCBEA'
 #DEBUG = False
 DEBAG = bool(os.environ.get('DJANGO_DEBAG', True))
 
-ALLOWED_HOSTS = ['mydomainilya.ru']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 # Application definition
 INSTALLED_APPS = [
